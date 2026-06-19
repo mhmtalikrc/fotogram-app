@@ -1,3 +1,48 @@
+📸 Fotogram
+
+Mini Instagram tarzı bir foto paylaşım uygulaması. Firebase Auth, Firebase Storage ve Firestore kullanılarak geliştirildi.
+
+✨ Özellikler
+
+
+Email/şifre ile kayıt, giriş, çıkış (oturum hatırlama)
+Galeriden resim seçip Firebase Storage'a yükleme
+Gönderi metadata'sının Firestore'da tutulması (resim URL'i, açıklama, sahip bilgisi)
+Tüm gönderilerin akışta (feed) listelenmesi
+Profil sayfasında kullanıcının kendi gönderileri
+
+
+🛠 Kullanılan Teknolojiler
+
+
+Expo + Expo Router
+Firebase (Auth, Firestore, Storage)
+React Query (@tanstack/react-query)
+NativeWind (Tailwind CSS for React Native)
+TypeScript
+
+
+🚀 Kurulum
+
+bun install
+
+firebaseConfig.ts dosyasını oluşturup kendi Firebase config bilgilerinizi ekleyin:
+
+tsconst firebaseConfig = {
+  apiKey: "...",
+  authDomain: "...",
+  projectId: "...",
+  storageBucket: "...",
+  messagingSenderId: "...",
+  appId: "...",
+};
+
+Uygulamayı çalıştırın:
+
+bun run web
+
+📸 Ekran Görüntüleri
+
 <img width="828" height="1792" alt="WhatsApp Image 2026-06-19 at 22 51 05" src="https://github.com/user-attachments/assets/9a579395-93d6-4706-9543-937d9cc0d0cd" />
 <img width="504" height="890" alt="Ekran görüntüsü 2026-06-19 224953" src="https://github.com/user-attachments/assets/457b61c6-5fa9-431d-b9e5-580ba9135504" />
 <img width="828" height="1792" alt="WhatsApp Image 2026-06-19 at 22 51 06" src="https://github.com/user-attachments/assets/cee6b0d7-079d-43e0-8417-07a3605d84d2" />
